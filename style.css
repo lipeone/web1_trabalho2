@@ -1,0 +1,52 @@
+body{
+    background: rgb(33,37,62);
+    background: radial-gradient(circle, rgba(33,37,62,1) 28%, rgba(0,0,0,1) 100%);
+    margin-top: 20px !important;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    float: left;
+    border-radius: 12px;
+    align-items: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+h1{
+    line-height: 50px;
+}
+h2{
+    font-style: italic;
+    line-height: 1px;
+}
+legend{
+    font-size: large;
+    font-style: oblique;
+}
+fieldset{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.findme{
+    line-height: normal;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.instagram{
+    background-image: linear-gradient(to right,#8d71f9 , #bc004d, #fc001c, #fd6d00);
+}
+.github{
+    background-color: #102e48;
+}
